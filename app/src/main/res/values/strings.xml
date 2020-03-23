@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">HomeCrime2</string>
+
+    <string name="main_activity_new_crime_title">Переступления</string>
+    <string name="main_activity_new_crime"> Кара придет!</string>
+    <string name="main_activity_statistics_title">Статистика</string>
+    <string name="main_activity_statistics">Мы все помним!</string>
+    <string name="main_activity_person_title">Подозреваемые </string>
+    <string name="main_activity_person">Кара близко!</string>
+    <string name="main_activity_codex_title">Домашний кодекс</string>
+    <string name="main_activity_codex">Dura lex,sed lex!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

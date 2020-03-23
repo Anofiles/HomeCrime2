@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+    <androidx.cardview.widget.CardView
+        android:id="@+id/activity_main_crime"
+        android:layout_margin="5dp"
+        android:layout_width="0dp"
+        android:layout_height="230dp"
+        android:layout_weight="1"
+        app:cardCornerRadius="5dp"
+        android:background="@color/cardview_dark_background"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="10dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+             <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+
+                android:background="@drawable/ic_launcher_background"
+                android:layout_marginTop="20dp" />
+             <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="15dp"
+                android:background="@color/colorPrimary" />
+             <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:text="@string/main_activity_new_crime_title"/>
+
+             <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                 android:layout_marginBottom="10dp"
+                 android:layout_marginLeft="15dp"
+                 android:layout_marginRight="15dp"
+                android:background="@color/colorPrimary" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/main_activity_new_crime"/>
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+            android:id="@+id/activity_main_codex"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="230dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="5dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="true"
+           android:focusable="true"
+            android:elevation="10dp"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+
+
+                android:background="@drawable/ic_launcher_background"
+                android:layout_marginTop="20dp" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:layout_margin="15dp"
+                android:background="@color/colorPrimary" />
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:text="@string/main_activity_codex_title"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@color/colorPrimary" />
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:text="@string/main_activity_codex"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+        <androidx.cardview.widget.CardView
+            android:id="@+id/activity_main_statistic"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="230dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="5dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="10dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+
+
+                    android:background="@drawable/ic_launcher_background"
+                    android:layout_marginTop="20dp" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/colorPrimary" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:text="@string/main_activity_statistics_title"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/colorPrimary" />
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="@string/main_activity_statistics"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/activity_main_suspect"
+            android:layout_margin="5dp"
+            android:layout_width="0dp"
+            android:layout_height="230dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="5dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="true"
+            android:focusable="true"
+            android:elevation="10dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center"
+
+
+                    android:background="@drawable/ic_launcher_background"
+                    android:layout_marginTop="20dp" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_margin="15dp"
+                    android:background="@color/colorPrimary" />
+                <TextView
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:text="@string/main_activity_person_title"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@color/colorPrimary" />
+                <TextView
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:text="@string/main_activity_person"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/activity_main_floating_button_top"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="7dp"
+
+            android:layout_gravity="end|bottom"
+
+            android:background="@drawable/ic_add_circle_black_24dp"
+
+            />
+
+    </FrameLayout>
+
+
+
+</LinearLayout>
